@@ -1,0 +1,156 @@
+.container{
+    // height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.contentTitle{
+    padding-right: 250px;
+    text-align: center;
+    color: white;
+    font-family: 'DynaPuff', cursive;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.Content{
+    display: grid;
+    grid-template-areas: "mainContent sideContent";
+    grid-template-columns: 75% 25%;
+    padding: 20px;
+    column-gap: 15px;
+    
+}
+.mainContent{
+    grid-area: mainContent;
+    background: rgba(2, 2, 2, 0.6);  
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;   
+    border-radius: 15px;        
+}
+.cardContent{
+    height: 420px;
+    width: 254px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+}
+.cardContent:hover{
+    border: 2px solid white;
+    transition: 1s;
+}
+.buyBtn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.buyCursor{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    border: transparent;
+    color: black;
+    font-weight: bold;
+}
+.buyCursor:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+.narguileImg{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.productTitle{
+    color: white;
+    font-family: 'Roboto serif';
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+.productDescription{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    // font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+}
+.productPrice{
+    color: white;
+    font-family: 'Roboto serif';
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.sideContent{
+    grid-area: sideContent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    background: rgba(2, 2, 2, 0.6);
+    border-radius: 15px;
+    
+}
+.sideContentTitle{
+    color: white;
+    font-family: 'DynaPuff', cursive;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.sideCardContent{
+    height: 305px;
+    width: 215px;
+    // border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+}
+.sideCardContent:hover{
+    border: 1px solid white;
+    transition: 1s;
+    background-color: rgb(199, 3, 3, 0.6)
+}
+.sideBuyBtn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.sideBuyCursor{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    border: transparent;
+    color: black;
+    font-weight: bold;
+}
+.sideBuyCursor:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.sideNarguileImg{
+    height: 180px;
+    width: 200px;
+    border-radius: 6px;
+    padding-bottom: 10px;
+}
+.sideProductTitle{
+    color: white;
+    font-family: 'Roboto serif';
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+.sideProductPrice{
+    color: white;
+    font-family: 'Roboto serif';
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
